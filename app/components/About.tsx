@@ -19,7 +19,7 @@ export default function About(){
             <h1 className="font-medium ] text-sm sm:text-base lg:text-lg">Home</h1>
         </Link>
         <Link href="About_Page">
-            <h1 className="font-medium text-sm sm:text-base lg:text-lg underline decoration-[#FF4E4E">About</h1>
+            <h1 className="font-medium text-sm sm:text-base lg:text-lg underline decoration-[#FF4E4E]">About</h1>
         </Link>
         <Link href="ContactUs_Page">
             <h1 className="font-medium text-sm sm:text-base lg:text-lg">Contact</h1>
