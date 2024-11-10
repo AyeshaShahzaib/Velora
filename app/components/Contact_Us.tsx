@@ -41,7 +41,7 @@ export default function Contact_Us(){
         <input type="text" id="subject" name="subject" required className="p-3 border-2 border-[#67CBE2] rounded-lg focus:outline-none bg-[#292525] text-white" />
 
         <label className="text-left font-medium text-white" htmlFor="message">Message</label>
-        <textarea id="message" name="message" rows="4" required className="p-3 border-2 border-[#67CBE2] rounded-lg focus:outline-none bg-[#292525] text-white"></textarea>
+        <textarea id="message" name="message" rows={4} required className="p-3 border-2 border-[#67CBE2] rounded-lg focus:outline-none bg-[#292525] text-white"></textarea>
 
         <button type="submit" className="bg-[#67CBE2] text-[#292525] py-3 rounded-lg font-semibold ">Send Message</button>
       </form>
