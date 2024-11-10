@@ -12,13 +12,13 @@ export default function Contact_Us(){
     </div>
     <div className="flex justify-between items-center  sm:w-1/2 md:w-1/3  text-white space-x-4 sm:space-x-6 lg:space-x-8">
         <Link href="Home_Page">
-            <h1 className="font-medium underline decoration-[#FF4E4E] text-sm sm:text-base lg:text-lg">Home</h1>
+            <h1 className="font-medium  text-sm sm:text-base lg:text-lg">Home</h1>
         </Link>
         <Link href="About_Page">
             <h1 className="font-medium text-sm sm:text-base lg:text-lg">About</h1>
         </Link>
         <Link href="ContactUs_Page">
-            <h1 className="font-medium text-sm sm:text-base lg:text-lg">Contact</h1>
+            <h1 className="font-medium text-sm sm:text-base lg:text-lg underline decoration-[#FF4E4E]">Contact</h1>
         </Link>
     </div>
 </div>
